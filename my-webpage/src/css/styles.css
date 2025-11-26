@@ -543,7 +543,7 @@ section h2 {
 }
 
 .footer .social-icons a:hover {
-  color: var(--accent); /* gold accent */
+  color: var(--accent);
 }
 
 .footer .affiliation-logos {
@@ -742,7 +742,7 @@ section h2 {
     flex-direction: column;
     align-items: center;
     gap: 24px;
-    margin-top: var(--nav-height); /* ✅ ensures hero text isn't covered */
+    margin-top: var(--nav-height);
   }
 
   .hero-text {
@@ -760,7 +760,7 @@ section h2 {
     width: 100%;
     max-width: 280px;
     margin: 0 auto;
-    transform: translateY(-8px); /* ✅ removes visual gap below image */
+    transform: translateY(-8px);
   }
 
   .hero-img img {

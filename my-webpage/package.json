@@ -1,0 +1,16 @@
+{
+  "name": "my-webpage",
+  "version": "1.0.0",
+  "description": "A simple webpage using HTML, CSS, and JavaScript.",
+  "main": "src/index.html",
+  "scripts": {
+    "start": "live-server src"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {},
+  "devDependencies": {
+    "live-server": "^1.2.1"
+  }
+}

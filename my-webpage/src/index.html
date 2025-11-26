@@ -1,0 +1,333 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Marci Metzger Homes</title>
+    <link rel="stylesheet" href="css/styles.css" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css"
+    />
+  </head>
+  <body>
+    <header class="nav">
+      <div class="logo">Marci Metzger Homes</div>
+      <button class="nav-toggle" aria-label="Toggle navigation">&#9776;</button>
+      <nav class="nav-center">
+        <a href="#hero">Home</a>
+        <a href="#listings">Listings</a>
+        <a href="#contact">Let's Move</a>
+        <a href="#about">About Us</a>
+      </nav>
+    </header>
+
+    <section class="hero" id="hero">
+      <div class="hero-inner">
+        <div class="hero-img">
+          <img
+            src="/images/rs_w_365_h_365_cg_true-removebg-preview.png"
+            alt="Marci Metzger"
+          />
+        </div>
+        <div class="hero-text">
+          <h2>The Ridge Realty Group</h2>
+          <h1>Marci Metzger</h1>
+          <h2>Pahrump Realtor</h2>
+          <p>Realtor for nearly 3 decades!</p>
+          <button class="btn-dark">Call Now</button>
+        </div>
+      </div>
+    </section>
+
+    <section class="section-label">
+      <h2>Our Services</h2>
+      <div class="section-divider" aria-hidden="true"></div>
+    </section>
+
+    <section class="two-col">
+      <div class="text-box">
+        <h2>Real Estate Done Right</h2>
+        <p>
+          Nervous about your property adventure? Don’t be. Whether you're
+          buying, selling, investing, or just curious, our team ensures you get
+          the best experience possible!
+        </p>
+        <button class="btn-dark">Learn More</button>
+      </div>
+      <div class="img-box">
+        <img
+          src="/images/rs=w_600,h_300,cg_true.png"
+          alt="Real Estate Done Right"
+        />
+      </div>
+    </section>
+
+    <section class="two-col">
+      <div class="img-box">
+        <img
+          src="/images/cr=w_365,h_365 (1).png"
+          alt="Commercial & Residential"
+        />
+      </div>
+      <div class="text-box">
+        <h2>Commercial & Residential</h2>
+        <p>
+          Large or small, condo or mansion, we’ll find it and get the right
+          price. Fixer-uppers? Luxury? We live, work, and play in this community
+          — and we’re here to help.
+        </p>
+        <button class="btn-dark">Learn More</button>
+      </div>
+    </section>
+
+    <section class="two-col">
+      <div class="text-box">
+        <h2>Rely on Expertise</h2>
+        <p>
+          Questions about affordability, credit, or loan options? We’ll connect
+          you with the right people and make sure you feel confident every step
+          of the way.
+        </p>
+        <button class="btn-dark">Learn More</button>
+      </div>
+      <div class="img-box">
+        <img src="/images/cr=w_365,h_365 (2).png" alt="Rely on Expertise" />
+      </div>
+    </section>
+
+    <section class="promo">
+      <div class="promo-header">
+        <h2 class="promo-title">Get It Sold</h2>
+        <div class="section-divider" aria-hidden="true"></div>
+        <div class="promo-divider" aria-hidden="true"></div>
+      </div>
+      <div class="promo-carousel">
+        <div class="promo-card">
+          <img src="/images/rs=w_600,h_300,cg_true.png" alt="Sales Success" />
+          <h3>Top Residential Sales Last 5 Years</h3>
+          <p>
+            We helped nearly 90 clients in 2021 and closed $28.5 million in
+            sales! Our team works hard every day to grow and improve so our best
+            gets better every year.
+          </p>
+          <button class="btn-dark">Learn More</button>
+        </div>
+        <div class="promo-card">
+          <img src="/images/cr=w_600,h_300.png" alt="Get it Sold" />
+          <h3>Don't Just List it...</h3>
+          <p>
+            Get it SOLD! We exhaust every avenue to ensure your listing reaches
+            every possible buyer — getting you top dollar for your home.
+          </p>
+          <button class="btn-dark">Learn More</button>
+        </div>
+        <div class="promo-card">
+          <img
+            src="/images/rs=w_600,h_300,cg_true,m.png"
+            alt="Guide to Buyers"
+          />
+          <h3>Guide to Buyers</h3>
+          <p>
+            Nobody knows the market like we do. Enjoy having a pro at your
+            service. Market analysis, upgrades lists, contractors on speed dial,
+            & more!
+          </p>
+          <button class="btn-dark">Learn More</button>
+        </div>
+      </div>
+    </section>
+
+    <section class="search-listings" id="listings">
+      <h2>Search Listings</h2>
+      <div class="section-divider" aria-hidden="true"></div>
+      <form class="listing-form">
+        <div class="form-row">
+          <select name="location">
+            <option value="">Location</option>
+            <option value="pahrump">Pahrump</option>
+            <option value="las-vegas">Las Vegas</option>
+            <option value="henderson">Henderson</option>
+          </select>
+          <select name="type">
+            <option value="">Type</option>
+            <option value="residential">Residential</option>
+            <option value="commercial">Commercial</option>
+            <option value="rental">Rental</option>
+          </select>
+          <select name="sort">
+            <option value="">Sort By</option>
+            <option value="price-low">Price: Low to High</option>
+            <option value="price-high">Price: High to Low</option>
+            <option value="newest">Newest Listings</option>
+          </select>
+        </div>
+        <div class="form-row">
+          <select name="bedrooms">
+            <option value="">Bedrooms</option>
+            <option value="1">1+</option>
+            <option value="2">2+</option>
+            <option value="3">3+</option>
+            <option value="4">4+</option>
+          </select>
+          <select name="baths">
+            <option value="">Baths</option>
+            <option value="1">1+</option>
+            <option value="2">2+</option>
+            <option value="3">3+</option>
+          </select>
+        </div>
+        <div class="form-row">
+          <input type="text" name="min-price" placeholder="Min Price" />
+          <input type="text" name="max-price" placeholder="Max Price" />
+        </div>
+        <div class="form-row">
+          <button type="submit">Search</button>
+        </div>
+      </form>
+    </section>
+
+    <section class="gallery" id="gallery">
+      <h2>Photo Gallery</h2>
+      <div class="section-divider" aria-hidden="true"></div>
+      <div class="gallery-grid">
+        <div class="gallery-row">
+          <img
+            src="/images/rs=w_984,h_655 (1).png"
+            alt="Property 1"
+            class="gallery-img"
+          />
+          <img
+            src="/images/rs=w_984,h_655 (2).png"
+            alt="Property 2"
+            class="gallery-img"
+          />
+          <img
+            src="/images/rs=w_984,h_655 (3).png"
+            alt="Property 3"
+            class="gallery-img"
+          />
+        </div>
+        <div class="gallery-row">
+          <img
+            src="/images/rs=w_984,h_655 (4).png"
+            alt="Property 4"
+            class="gallery-img"
+          />
+          <img
+            src="/images/rs=w_984,h_655.png"
+            alt="Property 5"
+            class="gallery-img"
+          />
+          <img
+            src="/images/rs=w_984,h_656 (1).png"
+            alt="Property 6"
+            class="gallery-img"
+          />
+        </div>
+        <div class="gallery-row single">
+          <img
+            src="/images/rs=w_984,h_656.png"
+            alt="Gallery Image 7"
+            class="gallery-img"
+          />
+        </div>
+      </div>
+    </section>
+
+    <div id="lightbox" class="lightbox">
+      <span class="close">&times;</span>
+      <img class="lightbox-img" src="" alt="Enlarged image" />
+    </div>
+
+    <section class="contact" id="contact">
+      <h2>Contact Us</h2>
+      <div class="section-divider" aria-hidden="true"></div>
+      <div class="contact-grid">
+        <div class="contact-info">
+          <h3>Marci Metzger – The Ridge Realty Group</h3>
+          <p>3190 HW-160, Suite F<br />Pahrump, Nevada 89048, United States</p>
+          <p><strong>Phone:</strong> (206) 919-6886</p>
+          <p>
+            <strong>Office Hours:</strong><br />Open daily 8:00 am – 7:00 pm
+          </p>
+          <p>
+            Appointments outside office hours available upon request. Just call!
+          </p>
+          <p><strong>Message us on WhatsApp</strong></p>
+        </div>
+        <form class="contact-form">
+          <label for="name">Name</label>
+          <input type="text" id="name" name="name" placeholder="Your name" />
+          <label for="email">Email*</label>
+          <input
+            type="email"
+            id="email"
+            name="email"
+            placeholder="Your email"
+            required
+          />
+          <label for="message">Message</label>
+          <textarea
+            id="message"
+            name="message"
+            rows="5"
+            placeholder="Your message"
+          ></textarea>
+          <button type="submit" class="btn-dark">Send</button>
+          <p class="recaptcha-note">
+            This site is protected by reCAPTCHA and the Google Privacy Policy
+            and Terms of Service apply.
+          </p>
+        </form>
+      </div>
+    </section>
+
+    <section class="map">
+      <h2>Map</h2>
+      <div class="section-divider" aria-hidden="true"></div>
+      <div class="map-container">
+        <iframe
+          width="100%"
+          height="100%"
+          scrolling="no"
+          src="https://maps.google.com/maps?width=100%25&amp;height=100%25&amp;hl=en&amp;q=3190%20NV-160%20Suite%20F,%20Pahrump,%20NV%2089048,%20United%20States+(THE%20RIDGE%20REALTY%20GROUP)&amp;t=&amp;z=14&amp;ie=UTF8&amp;iwloc=B&amp;output=embed"
+          loading="lazy"
+          referrerpolicy="no-referrer-when-downgrade"
+        ></iframe>
+      </div>
+    </section>
+
+    <footer class="footer">
+      <div class="social-icons">
+        <a href="https://facebook.com" target="_blank" aria-label="Facebook"
+          ><i class="fab fa-facebook-f"></i
+        ></a>
+        <a href="https://instagram.com" target="_blank" aria-label="Instagram"
+          ><i class="fab fa-instagram"></i
+        ></a>
+        <a href="https://linkedin.com" target="_blank" aria-label="LinkedIn"
+          ><i class="fab fa-linkedin-in"></i
+        ></a>
+        <a href="https://yelp.com" target="_blank" aria-label="Yelp"
+          ><i class="fab fa-yelp"></i
+        ></a>
+      </div>
+      <div class="affiliation-logos">
+        <img
+          src="/images/BIG_CIRCLE_2.png"
+          alt="The Ridge Realty Group"
+        />
+        <img src="/images/equal-housing-opportunity-logo-vector-11574200813xxobzv0wqt.png" alt="Equal Housing Opportunity" />
+        <img
+          src="/images/realtor-logowhite-250.png"
+          alt="REALTOR"
+        />
+        <img src="/images/PVCC-Logo-Transp copy.png" alt="Pahrump Valley Chamber of Commerce" />
+      </div>
+      <p>© 2025 Marci Metzger Homes — All Rights Reserved</p>
+    </footer>
+
+    <script src="js/main.js"></script>
+  </body>
+</html>

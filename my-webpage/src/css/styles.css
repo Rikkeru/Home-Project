@@ -163,7 +163,7 @@ section h2 {
 
 .hero {
   background-image: linear-gradient(rgba(0, 0, 0, 0.65), rgba(0, 0, 0, 0.65)),
-    url("/images/2732190_P41.png");
+    url("../images/2732190_P41.png");
   background-size: cover;
   background-position: center;
   background-repeat: no-repeat;

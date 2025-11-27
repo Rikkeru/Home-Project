@@ -555,9 +555,13 @@ section h2 {
 }
 
 .footer .affiliation-logos img {
-  height: 40px;
+  height: 60px;
   object-fit: contain;
   opacity: 0.85;
+}
+
+.footer .affiliation-logos img:nth-child(2) {
+  filter: brightness(0) invert(1);
 }
 
 @media (max-width: 1100px) {
@@ -596,9 +600,96 @@ section h2 {
   .promo-card {
     width: 300px;
   }
+
+  .two-col {
+    display: flex;
+    flex-direction: column;
+    gap: 24px;
+  }
+
+  .text-box {
+    order: 2;
+    text-align: center;
+  }
+
+  .img-box {
+    order: 1;
+  }
+
+  .gallery-row {
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .gallery-row img {
+    max-width: 50%;
+  }
 }
 
 @media (max-width: 900px) {
+  .nav {
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    padding: 12px 16px;
+    background-color: #fff;
+    border-bottom: 1px solid #eee;
+    height: var(--nav-height);
+  }
+
+  .logo {
+    font-size: 1.2rem;
+  }
+
+  .nav-toggle {
+    display: block;
+    font-size: 1.8rem;
+    color: var(--primary);
+    background: none;
+    border: none;
+    cursor: pointer;
+    padding: 8px;
+  }
+
+  .nav-center {
+    position: absolute;
+    top: var(--nav-height);
+    left: 16px;
+    right: 16px;
+    z-index: 999;
+    display: none;
+    flex-direction: column;
+    align-items: center;
+    background: #fff;
+    border-radius: 20px;
+    box-shadow: 0 6px 18px rgba(0, 0, 0, 0.1);
+    border: 1px solid #eee;
+    overflow: hidden;
+    padding: 20px;
+  }
+
+  .nav-center.show {
+    display: flex;
+  }
+
+  .nav-center span {
+    padding: 12px 0;
+    width: 100%;
+    text-align: center;
+    font-size: 1rem;
+    color: var(--text-color);
+    border-bottom: 1px solid #eee;
+  }
+
+  .nav-center span:last-child {
+    border-bottom: none;
+  }
+
+  .nav-center span:hover {
+    background-color: #f4f7fa;
+    color: var(--primary);
+  }
+
   .hero {
     padding: 48px 20px;
   }
@@ -636,7 +727,18 @@ section h2 {
   }
 
   .two-col {
-    grid-template-columns: 1fr;
+    display: flex;
+    flex-direction: column;
+    gap: 24px;
+  }
+
+  .text-box {
+    order: 2;
+    text-align: center;
+  }
+
+  .img-box {
+    order: 1;
   }
 
   .promo-card {
@@ -777,6 +879,21 @@ section h2 {
   .promo-card {
     width: 92%;
     padding: 16px;
+  }
+
+  .two-col {
+    display: flex;
+    flex-direction: column;
+    gap: 24px;
+  }
+
+  .text-box {
+    order: 2;
+    text-align: center;
+  }
+
+  .img-box {
+    order: 1;
   }
 
   .gallery-row img {

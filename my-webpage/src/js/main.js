@@ -1,6 +1,5 @@
-console.log("Marci Metzger Homes Loaded ✨");
+console.log("Marci Metzger Homes");
 
-// Smooth scroll for nav links
 document.querySelectorAll("a[href^='#']").forEach(link => {
   link.addEventListener('click', e => {
     e.preventDefault();
@@ -9,7 +8,6 @@ document.querySelectorAll("a[href^='#']").forEach(link => {
   });
 });
 
-// Lightbox for gallery images
 const lightbox = document.getElementById('lightbox');
 const lightboxImg = document.querySelector('.lightbox-img');
 const closeBtn = document.querySelector('.lightbox .close');
@@ -31,7 +29,6 @@ lightbox.addEventListener('click', e => {
   if (e.target === lightbox) closeLightbox();
 });
 
-// Auto-expand textareas
 document.querySelectorAll('textarea').forEach(textarea => {
   textarea.addEventListener('input', () => {
     textarea.style.height = 'auto';
@@ -39,7 +36,6 @@ document.querySelectorAll('textarea').forEach(textarea => {
   });
 });
 
-// Hamburger toggle
 const navToggle = document.querySelector('.nav-toggle');
 const navCenter = document.querySelector('.nav-center');
 
